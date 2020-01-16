@@ -1,9 +1,18 @@
 {
+  "name": "typescript-maps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:juliosouzam/typescript-maps.git",
+  "author": "Julio Cesar <julio.souzam@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
   "devDependencies": {
     "@types/faker": "^4.1.9",
+    "@types/googlemaps": "^3.39.2",
+    "faker": "^4.1.0",
+    "parcel-bundler": "^1.12.4",
     "typescript": "^3.7.4"
-  },
-  "dependencies": {
-    "faker": "^4.1.0"
   }
 }
